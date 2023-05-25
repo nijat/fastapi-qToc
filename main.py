@@ -12,7 +12,7 @@ async def root():
     return {"message": "Hello World. Welcome to FastAPI!"}
 
 
-@app.get("/path")
+@app.get("/nijat")
 async def demo_get():
     return {"message": "This is /path endpoint, use a post request to transform the text to uppercase"}
 
